@@ -1,11 +1,67 @@
 import React from "react";
+import "../App.css";
 import AllNews from "./AllNews";
 import NewsDetails from "./NewsDetails";
 
 const Pages = () => {
     return (
-        <div>
-            <h1>test</h1>
+        <div className="Pages">
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
+            <h1>bardzo testowa zawartość</h1>
+            <div>
+                <p>testowa</p>
+            </div>
         </div>
     );
 };
