@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../components/Nav";
 
 const NewsDetails = () => {
-    return <div>NewsDetails</div>;
+    return <div></div>;
 };
 
 export default NewsDetails;

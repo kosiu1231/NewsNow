@@ -13,7 +13,7 @@ const Nav = () => {
                 </div>
                 <div className="search">searchbox</div>
                 <div className="categories">
-                    <h2>Categories</h2>
+                    <h3>Categories</h3>
                     <ul>
                         <li>Element 1</li>
                         <li>Element 2</li>
