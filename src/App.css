@@ -10,20 +10,38 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: "Lato", sans-serif;
 }
 
+.App {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
 .navContainer {
+    min-height: 100vh;
+    width: 300px;
+    background-color: #f0f0f0;
+}
+
+nav {
     width: 300px;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    top: 0;
+    padding: 1rem;
+}
+
+.Pages {
+    flex: 1;
+    padding-left: 2rem;
 }
 
 .header {
@@ -33,7 +51,6 @@ body {
 
 .logo {
     width: 50px;
-    height: 50px;
     margin-right: 10px;
 }
 
@@ -46,11 +63,11 @@ body {
 .search {
     height: 50px;
     background-color: #e0e0e0;
-    margin: 15px 0 20px 0;
+    margin: 15px 0 5px 0;
 }
 
 .categories ul {
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 h2 {
@@ -65,15 +82,11 @@ ul {
 }
 
 li {
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 footer {
     font-size: 0.8rem;
     text-align: center;
     margin-top: auto;
-}
-
-.Pages {
-    padding-left: 340px;
 }
